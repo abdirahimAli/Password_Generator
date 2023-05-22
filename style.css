@@ -1,87 +1,100 @@
-
-
-
-body{
-
-    margin: 0;
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: black;
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
 }
 
 .Password-Generator {
-    color: #c9ced3;
+  color: #c9ced3;
 }
 
-.The-Password{
-    color: #c9ced3;
-    background-color: rgb(42, 41, 41);
-    
+.The-Password {
+  color: #c9ced3;
+  background-color: rgb(42, 41, 41);
 
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
 }
 
-.The-Password h1{
-    margin-left: 15%;
+.fa-clipboard {
+  /* background-color: rgb(42, 41, 41); */
+}
+.btn {
+  margin-top: 26px;
+  width: 46px;
+  font-size: 9px;
+  color: rgb(116, 212, 116);
+  background-color: rgb(42, 41, 41);
+  size: 5px;
+  outline: none;
+  border: none;
 }
 
-.Charachter-length span{
-    margin-left: 40%;
+.btn:active {
+  transform: translateY(2px);
+}
+/* .btn:hover {
+  background-color: black;
+} */
+
+.The-Password h1 {
+  margin-left: 15%;
+}
+
+.Charachter-length span {
+  margin-left: 40%;
 }
 
 .Charachter-length {
-   margin-top: 8px;
-   margin-left: 20px;
+  margin-top: 8px;
+  margin-left: 20px;
 }
 
-input{
-    padding:10px;
-    color: rgb(116, 212, 116);
+input {
+  padding: 10px;
+  color: rgb(116, 212, 116);
 }
 
+.The-container {
+  margin-top: 15px;
 
-.The-container{
-    margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: startflex-;
 
-    display:flex;
-    flex-direction: column;
-    justify-content:startflex-;
+  color: #c9ced3;
+  background-color: rgb(42, 41, 41);
 
-    color: #c9ced3;
-    background-color: rgb(42, 41, 41);
-
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
 }
-.maininputs{
-    margin-left: 20px;
-    display: block;
-   
+.maininputs {
+  margin-left: 20px;
+  display: block;
 }
 
-.maininputs div{
-    padding-top: 4%;
+.maininputs div {
+  padding-top: 4%;
 }
 
-.The-container button{
-   margin-left: 10%;
-   margin-top: 15%;
-    width: 80%;
-    background-color: rgb(116, 212, 116);
+.The-container button {
+  margin-left: 10%;
+  margin-top: 15%;
+  width: 80%;
+  background-color: rgb(116, 212, 116);
 }
 
 .The-container button:hover {
-    border-style: solid;  
-    filter: brightness(200%); 
-   
-    
+  border-style: solid;
+  filter: brightness(200%);
 }
 /* .translateY{
     transform: translateY(2px); 
@@ -91,5 +104,5 @@ input{
 } */
 
 .The-container button:active {
-    transform: translateY(1px);
-  }
+  transform: translateY(1px);
+}
